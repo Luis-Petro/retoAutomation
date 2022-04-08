@@ -1,4 +1,4 @@
 # retoAutomation
 
-Autor: Luis Petro Herrera
-Rama funcional: Master 
+Autor: Luis Alberto Petro Herrera
+
