@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-04-2022 22:30</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-04-2022 12:07</span>
     <br style="clear:left"/>
 </div>
 
@@ -205,9 +205,9 @@ para ver los resultados que me arroja
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Verificar el resultado del simulador de cr&eacute;dito de vivienda con
+                                <span class="failing-color">Verificar el resultado del simulador de cr&eacute;dito de vivienda con
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -228,8 +228,80 @@ para ver los resultados que me arroja
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tasks.FillForm.performAs(FillForm.java:29)<br />stepdefinitions.simularcredito.diligenciaLosCamposDelFormularioConDatosValidos(simularcredito.java:44)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.id: boton-simular to be enabled (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'<br>System info: host: 'CHMEPPF350WY6', ip: '192.168.1.35', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'<br>Driver info: driver.version: unknown</pre>
+                        <pre>tasks.FillForm.performAs(FillForm.java :29)<br />stepdefinitions.simularcredito.diligenciaLosCamposDelFormularioConDatosValidos(simularcredito.java :44)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1090794176312052213.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
+                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Example: {ValorVivivenda=130000000, plazo=3}" width="1366"/>
+                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Dado Que Luis ingresa al portal" width="1366"/>
+                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Luis open up" width="1366"/>
+                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Luis opens the Leasing bancolombia" width="1366"/>
+                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Luis open up (completed)" width="1366"/>
+                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Dado Que Luis ingresa al portal (completed)" width="1366"/>
+                <img src="c7035fee69c1de6edde68e78371224353d5fea806f6d04ed4c04082d4eb28dcc.png" title=" Y Seleciona productos y servicios para dirigirse a Leasing" width="1366"/>
+                <img src="c7035fee69c1de6edde68e78371224353d5fea806f6d04ed4c04082d4eb28dcc.png" title=" Luis clicks" width="1366"/>
+                <img src="c7035fee69c1de6edde68e78371224353d5fea806f6d04ed4c04082d4eb28dcc.png" title=" Luis clicks on Menu productos y servicio" width="1366"/>
+                <img src="9bbf146972ef5f1fcfdd9f3a0e1b8ed307a01c530e38df7ebcf57719adb97259.png" title=" Luis clicks on Leasing" width="1366"/>
+                <img src="7b88856da3a274fc8063d0d7a01c24cd5b8b5580a0d6b6ab632ad2f6e36d21b1.png" title=" Luis clicks on Leansing Habitacional" width="1366"/>
+                <img src="78a19aaeac742238f81500e65944d5ff33fd460f37913f99fde4d6eb2a167ebf.png" title=" Luis clicks on SIMULAR" width="1366"/>
+                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Luis clicks on Seg&uacute;n Valor De Vivivenda" width="1366"/>
+                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Luis clicks (completed)" width="1366"/>
+                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Y Seleciona productos y servicios para dirigirse a Leasing (completed)" width="1366"/>
+                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Y Selecciona Leasing habitacional" width="1366"/>
+                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Cuando Cuando selecciona simular para dirigirse a segun valor de vivienda" width="1366"/>
+                <img src="e3e43e1b3697de8871ea99e4afcc11ee661570c6fbb167329e19ad87d1029452.png" title=" Y Diligencia los campos del formulario con datos validos &quot;130000000&quot; &quot;3&quot;" width="1366"/>
+                <img src="e3e43e1b3697de8871ea99e4afcc11ee661570c6fbb167329e19ad87d1029452.png" title=" Luis fill form" width="1366"/>
+                <img src="e3e43e1b3697de8871ea99e4afcc11ee661570c6fbb167329e19ad87d1029452.png" title=" Luis enters '130000000' into Valor de vivienda" width="1366"/>
+                <img src="5f42c9ab2f3ec16613d49d0aa83c171866e2fc8caded0bac7892e53ddaab106f.png" title=" Luis enters '3' into Plazo del cr&eacute;dito" width="1366"/>
+                <img src="5d85c9b494977e618de6a02b8395b09f149757cb7ed806899ac64a93a775814e.png" title=" Luis clicks on Selecionar entrada a&ntilde;o de nacimiento" width="1366"/>
+                <img src="ff529a05a6b56691e730be71c9f198d0b71c55ff3d0790e04a1b09b064ac03a7.png" title=" Luis clicks on A&ntilde;o" width="1366"/>
+                <img src="6febf134f7d785e8eb7fc27583b2db0d100ab31b127afdfd0a507be909438333.png" title=" Luis clicks on Mes" width="1366"/>
+                <img src="f198d2bab69177d7cdae8652f0df9f523e53a48e9ccbfc88d596a4d55b9be130.png" title=" Luis clicks on Dia" width="1366"/>
+                <img src="f198d2bab69177d7cdae8652f0df9f523e53a48e9ccbfc88d596a4d55b9be130.png" title=" Luis clicks on Boton simular" width="1366"/>
                 <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Example: {ValorVivivenda=160000000, plazo=15}" width="1366"/>
                 <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Dado Que Luis ingresa al portal" width="1366"/>
                 <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Luis open up" width="1366"/>
@@ -239,63 +311,30 @@ para ver los resultados que me arroja
                 <img src="67ef24ce4f190b46680a10eda05b45c8f167227df0c456a758caa0bceff8c505.png" title=" Y Seleciona productos y servicios para dirigirse a Leasing" width="1366"/>
                 <img src="67ef24ce4f190b46680a10eda05b45c8f167227df0c456a758caa0bceff8c505.png" title=" Luis clicks" width="1366"/>
                 <img src="67ef24ce4f190b46680a10eda05b45c8f167227df0c456a758caa0bceff8c505.png" title=" Luis clicks on Menu productos y servicio" width="1366"/>
-                <img src="9bbf146972ef5f1fcfdd9f3a0e1b8ed307a01c530e38df7ebcf57719adb97259.png" title=" Luis clicks on Leasing" width="1366"/>
-                <img src="8bf87cbc3b43c14c355e102f92e9d7b69f159420006588df9541c2d610b5400b.png" title=" Luis clicks on Leansing Habitacional" width="1366"/>
-                <img src="d2f372009065881a38f6b6412adff8692da9b990737ffa7849359c3e5aa257a4.png" title=" Luis clicks on SIMULAR" width="1366"/>
-                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Luis clicks on Seg&uacute;n Valor De Vivivenda" width="1366"/>
-                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Luis clicks (completed)" width="1366"/>
-                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Y Seleciona productos y servicios para dirigirse a Leasing (completed)" width="1366"/>
-                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Y Selecciona Leasing habitacional" width="1366"/>
-                <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Cuando Cuando selecciona simular para dirigirse a segun valor de vivienda" width="1366"/>
-                <img src="d7172de3c92311fc2e6a2600d057f28f4042a421919b96058a27e49b53a2f9a5.png" title=" Y Diligencia los campos del formulario con datos validos &quot;160000000&quot; &quot;15&quot;" width="1366"/>
-                <img src="d7172de3c92311fc2e6a2600d057f28f4042a421919b96058a27e49b53a2f9a5.png" title=" Luis fill form" width="1366"/>
-                <img src="d7172de3c92311fc2e6a2600d057f28f4042a421919b96058a27e49b53a2f9a5.png" title=" Luis enters '160000000' into Valor de vivienda" width="1366"/>
-                <img src="14a1290cfd7dfac3d2811bdcf4dcf4221a6e9a87e7d5cf96cc9f7e0cf42a6044.png" title=" Luis enters '15' into Plazo del cr&eacute;dito" width="1366"/>
-                <img src="7098d455022b01ed24ea6b2b65958afc769235d5703e768b120a5f8d97b03362.png" title=" Luis clicks on Selecionar entrada a&ntilde;o de nacimiento" width="1366"/>
-                <img src="028cbadcb2eb7821f853c6b71d17086a056c32e1324ac4d03058e9183f37dcd4.png" title=" Luis clicks on A&ntilde;o" width="1366"/>
-                <img src="67b274a684771af0f9a7f4636eac9b08128646d641e09fd08ebd24f18020c58e.png" title=" Luis clicks on Mes" width="1366"/>
-                <img src="1df703d846c29da317cf998ce6227fd74853b519a333a5551a8e0a42a1917076.png" title=" Luis clicks on Dia" width="1366"/>
-                <img src="dbaa6179b03354032e1b47b056dc0fe8c2ef4709492eb5790c0e5a77d8b82927.png" title=" Luis clicks on Boton simular" width="1366"/>
-                <img src="55142e2a5ba93b4f0350f36485b42bc70f79b289ecf16dd7b2cea128a3098d59.png" title=" Luis clicks on Leasing Habitacional" width="1366"/>
-                <img src="55142e2a5ba93b4f0350f36485b42bc70f79b289ecf16dd7b2cea128a3098d59.png" title=" Luis fill form (completed)" width="1366"/>
-                <img src="55142e2a5ba93b4f0350f36485b42bc70f79b289ecf16dd7b2cea128a3098d59.png" title=" Y Diligencia los campos del formulario con datos validos &quot;160000000&quot; &quot;15&quot; (completed)" width="1366"/>
-                <img src="6dbaf895808711cfb54198115a526574764805ca4af08198a5ec3ab35668a4d1.png" title=" Entonces Verifica que al simular su credito obtiene el resultado de la simulacion" width="1366"/>
-                <img src="6dbaf895808711cfb54198115a526574764805ca4af08198a5ec3ab35668a4d1.png" title=" Then verificar should be 'Cuota fija en pesos'" width="1366"/>
-                <img src="6dbaf895808711cfb54198115a526574764805ca4af08198a5ec3ab35668a4d1.png" title=" Entonces Verifica que al simular su credito obtiene el resultado de la simulacion (completed)" width="1366"/>
-                <img src="6dbaf895808711cfb54198115a526574764805ca4af08198a5ec3ab35668a4d1.png" title=" Example: {ValorVivivenda=160000000, plazo=15} (completed)" width="1366"/>
-                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Example: {ValorVivivenda=200000000, plazo=20}" width="1366"/>
-                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Dado Que Luis ingresa al portal" width="1366"/>
-                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Luis open up" width="1366"/>
-                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Luis opens the Leasing bancolombia" width="1366"/>
-                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Luis open up (completed)" width="1366"/>
-                <img src="f3ee2ae8aaea293bd93e2162e7c7786bc4c65738b5fb3414b4e276a66cdcaa7e.png" title=" Dado Que Luis ingresa al portal (completed)" width="1366"/>
-                <img src="cf4de5d58462ba5e11ce2f94e84724b7fd842a550ba08ce1143f4fa6b68b5127.png" title=" Y Seleciona productos y servicios para dirigirse a Leasing" width="1366"/>
-                <img src="cf4de5d58462ba5e11ce2f94e84724b7fd842a550ba08ce1143f4fa6b68b5127.png" title=" Luis clicks" width="1366"/>
-                <img src="cf4de5d58462ba5e11ce2f94e84724b7fd842a550ba08ce1143f4fa6b68b5127.png" title=" Luis clicks on Menu productos y servicio" width="1366"/>
-                <img src="5666ee75df59ef6b9cac93710b202840c06c4dd47184d69472718d393f169e8b.png" title=" Luis clicks on Leasing" width="1366"/>
-                <img src="f04cd8d0bfb1fdcf5bfc689bfd88d369f052ad0cd630d15d48a31b5ddd57f132.png" title=" Luis clicks on Leansing Habitacional" width="1366"/>
+                <img src="92fce1b8f6fdd22d738818de869a1e69cf681407f841ea0a7207bb7da62f74c4.png" title=" Luis clicks on Leasing" width="1366"/>
+                <img src="755a6f2ea975bae25d3e95a6e0f8fc847aebe0944d07497eef9df786796412d0.png" title=" Luis clicks on Leansing Habitacional" width="1366"/>
                 <img src="85498fe1eb8c2308851b4c7b15bfb083b38e12a788d7c38b2263f2426317361a.png" title=" Luis clicks on SIMULAR" width="1366"/>
                 <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Luis clicks on Seg&uacute;n Valor De Vivivenda" width="1366"/>
                 <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Luis clicks (completed)" width="1366"/>
                 <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Y Seleciona productos y servicios para dirigirse a Leasing (completed)" width="1366"/>
                 <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Y Selecciona Leasing habitacional" width="1366"/>
                 <img src="6da16cef732804e4195f909228f69615943edb856d49394226d7425a0624c5d4.png" title=" Cuando Cuando selecciona simular para dirigirse a segun valor de vivienda" width="1366"/>
-                <img src="675ce33d516d3eee059f0f20ca27d88a7f0094e985972d534bd0bd057bfca08a.png" title=" Y Diligencia los campos del formulario con datos validos &quot;200000000&quot; &quot;20&quot;" width="1366"/>
-                <img src="675ce33d516d3eee059f0f20ca27d88a7f0094e985972d534bd0bd057bfca08a.png" title=" Luis fill form" width="1366"/>
-                <img src="675ce33d516d3eee059f0f20ca27d88a7f0094e985972d534bd0bd057bfca08a.png" title=" Luis enters '200000000' into Valor de vivienda" width="1366"/>
-                <img src="7f7d097983ad0925a8e616a86c321c39a895256a019e9537ddd026d1037e746c.png" title=" Luis enters '20' into Plazo del cr&eacute;dito" width="1366"/>
-                <img src="451c358179a0961a9cf0ba235d8cb06e663eaf79a03f3beeb94fe3326b611edb.png" title=" Luis clicks on Selecionar entrada a&ntilde;o de nacimiento" width="1366"/>
-                <img src="67007ffd1557baea611c0b5b0b394d799dcfab786e1adcae07fc65d2dc01ec4c.png" title=" Luis clicks on A&ntilde;o" width="1366"/>
-                <img src="80656066b0365a6306f78e552f15fd3e7573fbc677de5ce34975c48fea9268f2.png" title=" Luis clicks on Mes" width="1366"/>
-                <img src="7b169576aa38c2fbbe22ae1e204944179167e7d9370ed0718bfb63edff68db09.png" title=" Luis clicks on Dia" width="1366"/>
-                <img src="3e0f7499bc97edbfdf6cd0b93ff2ce777913d1bcd7fd4ab03d7bac72621c8d9f.png" title=" Luis clicks on Boton simular" width="1366"/>
-                <img src="726993992ed38887f6d5a712d376e27b01ec12409756c33306a5624ba525e8c0.png" title=" Luis clicks on Leasing Habitacional" width="1366"/>
-                <img src="726993992ed38887f6d5a712d376e27b01ec12409756c33306a5624ba525e8c0.png" title=" Luis fill form (completed)" width="1366"/>
-                <img src="726993992ed38887f6d5a712d376e27b01ec12409756c33306a5624ba525e8c0.png" title=" Y Diligencia los campos del formulario con datos validos &quot;200000000&quot; &quot;20&quot; (completed)" width="1366"/>
-                <img src="2dc871ebed7079db587e23c47f4dfaae74fd97dab5902fcbe6697afd2ad3c462.png" title=" Entonces Verifica que al simular su credito obtiene el resultado de la simulacion" width="1366"/>
-                <img src="2dc871ebed7079db587e23c47f4dfaae74fd97dab5902fcbe6697afd2ad3c462.png" title=" Then verificar should be 'Cuota fija en pesos'" width="1366"/>
-                <img src="2dc871ebed7079db587e23c47f4dfaae74fd97dab5902fcbe6697afd2ad3c462.png" title=" Entonces Verifica que al simular su credito obtiene el resultado de la simulacion (completed)" width="1366"/>
-                <img src="2dc871ebed7079db587e23c47f4dfaae74fd97dab5902fcbe6697afd2ad3c462.png" title=" Example: {ValorVivivenda=200000000, plazo=20} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="72972b74040f450853140f4a60f54c15c2c4c2cfceae813d7d53dbe7e8a7fda0.png" title=" Y Diligencia los campos del formulario con datos validos &quot;160000000&quot; &quot;15&quot;" width="1366"/>
+                <img src="72972b74040f450853140f4a60f54c15c2c4c2cfceae813d7d53dbe7e8a7fda0.png" title=" Luis fill form" width="1366"/>
+                <img src="72972b74040f450853140f4a60f54c15c2c4c2cfceae813d7d53dbe7e8a7fda0.png" title=" Luis enters '160000000' into Valor de vivienda" width="1366"/>
+                <img src="7af1e806ef300780e42c09ae3a6e37ad2c9b0b6d516fd6ae1b34bde079819fcf.png" title=" Luis enters '15' into Plazo del cr&eacute;dito" width="1366"/>
+                <img src="c2676084a82e3abd89b5c6cbeb646221961ef64aac70f8e877c3ad6de88da3d2.png" title=" Luis clicks on Selecionar entrada a&ntilde;o de nacimiento" width="1366"/>
+                <img src="028cbadcb2eb7821f853c6b71d17086a056c32e1324ac4d03058e9183f37dcd4.png" title=" Luis clicks on A&ntilde;o" width="1366"/>
+                <img src="67b274a684771af0f9a7f4636eac9b08128646d641e09fd08ebd24f18020c58e.png" title=" Luis clicks on Mes" width="1366"/>
+                <img src="1df703d846c29da317cf998ce6227fd74853b519a333a5551a8e0a42a1917076.png" title=" Luis clicks on Dia" width="1366"/>
+                <img src="28720b6b7f3859dff71c3edf09c772eeeabd2418653fa99317dad558d617d236.png" title=" Luis clicks on Boton simular" width="1366"/>
+                <img src="6b26c3fbf048797b8c96339d5ba8e510bffda174766a4c2a11da9688852473d3.png" title=" Luis clicks on Leasing Habitacional" width="1366"/>
+                <img src="6b26c3fbf048797b8c96339d5ba8e510bffda174766a4c2a11da9688852473d3.png" title=" Luis fill form (completed)" width="1366"/>
+                <img src="6b26c3fbf048797b8c96339d5ba8e510bffda174766a4c2a11da9688852473d3.png" title=" Y Diligencia los campos del formulario con datos validos &quot;160000000&quot; &quot;15&quot; (completed)" width="1366"/>
+                <img src="c74d8195244f430d7c85992d358a012f6ea326f1bf44a51d37e54f5e5dd212f5.png" title=" Entonces Verifica que al simular su credito obtiene el resultado de la simulacion" width="1366"/>
+                <img src="c74d8195244f430d7c85992d358a012f6ea326f1bf44a51d37e54f5e5dd212f5.png" title=" Then verificar should be 'Cuota fija en pesos'" width="1366"/>
+                <img src="c74d8195244f430d7c85992d358a012f6ea326f1bf44a51d37e54f5e5dd212f5.png" title=" Entonces Verifica que al simular su credito obtiene el resultado de la simulacion (completed)" width="1366"/>
+                <img src="c74d8195244f430d7c85992d358a012f6ea326f1bf44a51d37e54f5e5dd212f5.png" title=" Example: {ValorVivivenda=160000000, plazo=15} (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 

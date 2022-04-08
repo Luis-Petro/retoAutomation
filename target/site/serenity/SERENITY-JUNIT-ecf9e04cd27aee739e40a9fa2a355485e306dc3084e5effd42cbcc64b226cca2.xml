@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Verificar el funcionamiento de la pantalla" skipped="0" tests="2" time="54.35" timestamp="2022-04-07 10:30:06"><testcase name="Verificar el resultado del simulador de crédito de vivienda con"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Verificar el funcionamiento de la pantalla" skipped="0" tests="2" time="61.09" timestamp="2022-04-08 12:07:33"><testcase name="Verificar el resultado del simulador de crédito de vivienda con"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+tasks.FillForm.performAs(FillForm.java:29)&#13;
+stepdefinitions.simularcredito.diligenciaLosCamposDelFormularioConDatosValidos(simularcredito.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

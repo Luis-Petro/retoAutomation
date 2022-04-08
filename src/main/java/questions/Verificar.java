@@ -7,7 +7,7 @@ import tasks.Clicks;
 import userinterface.LeasingBancolombia;
 
 public class Verificar implements Question {
-
+    LeasingBancolombia Le = new LeasingBancolombia();
     public static Verificar resutlado() {
         return new Verificar();
     }
@@ -15,6 +15,7 @@ public class Verificar implements Question {
 
     @Override
     public Object answeredBy(Actor actor) {
+        System.out.printf("VALOR CUOTA FIJA EN PESOS: "+Le.Resultados());
         return Text.of(LeasingBancolombia.RESULTADO_SIMULACION).viewedBy(actor).asString();
     }
 }
