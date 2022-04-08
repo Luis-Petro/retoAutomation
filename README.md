@@ -2,5 +2,4 @@
 
 Autor: Luis Alberto Petro Herrera
 
-EVIDENCIA:
-![EVIDENCIA](https://user-images.githubusercontent.com/48466600/162490867-50877e57-96a1-40fb-8656-051477cd3971.png)
+![EVIDENCIA](https://user-images.githubusercontent.com/48466600/162491268-3b9a0fce-c51a-418c-9cfc-e95f9a1600c1.png)
