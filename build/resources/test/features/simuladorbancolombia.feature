@@ -24,5 +24,5 @@ Característica: Verificar el funcionamiento de la pantalla
 
     Ejemplos:
       | ValorVivivenda | plazo |
+      | 180000000      | 10    |
       | 160000000      | 15    |
-      | 200000000      | 20    |

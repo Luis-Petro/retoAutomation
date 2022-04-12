@@ -10,9 +10,6 @@ public class FillForm implements Task {
     private  final  String ValorVivivenda;
     private  final String Plazo;
   //
-
-
-
     public FillForm(String valorVivivenda, String plazo) {
         ValorVivivenda = valorVivivenda;
         Plazo = plazo;

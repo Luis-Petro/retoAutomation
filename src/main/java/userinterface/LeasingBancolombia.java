@@ -14,22 +14,21 @@ public class LeasingBancolombia extends PageObject {
   public String Resultados(){
 
     String v1 =  getDriver().findElement(org.openqa.selenium.By.id("resultado-FIXEDRATEFIXEDFEE")).getText();
-   // String v2 = getDriver().findElement(org.openqa.selenium.By.xpath("//div//small[@class='very-small']")).getText();
       return v1;
   }
 
 
     //-------------------------------NAVIGATION--------------------------------------
 
-    public static final Target SELECT_MENU_PYS =Target.the("Menu productos y servicio").
+    public static final Target SELECT_MENU_PYS =Target.the("productos y servicio").
             located(By.id("menu-productos"));
     public static final Target SELECT_MENU_LEASING =Target.the("Leasing").
             located(By.id("header-productos-leasing"));
-    public static final Target SELECT_LEASIANG_HABITACIONAL = Target.the("Leansing Habitacional").
+    public static final Target SELECT_LEASIANG_HABITACIONAL = Target.the("leansing Habitacional").
             located(By.xpath("//a[contains(text(), 'Leasing Habitacional')]"));
-    public static final Target SELECT_SIMULAR = Target.the("SIMULAR").
+    public static final Target SELECT_SIMULAR = Target.the("apartado simular").
             located(By.xpath("//a[contains(text(), 'Simula')]"));
-    public static final Target SELECT_SEGUN_VALOR_VIVIENDA = Target.the("Según Valor De Vivivenda").
+    public static final Target SELECT_SEGUN_VALOR_VIVIENDA = Target.the("simular según Valor De Vivivenda").
             located(By.id("calcular-cuotas"));
 
     //---------------------------------FORM-----------------------------------------------

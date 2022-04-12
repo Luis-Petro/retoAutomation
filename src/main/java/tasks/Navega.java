@@ -4,9 +4,9 @@ import net.serenitybdd.screenplay.actions.Click;
 import userinterface.LeasingBancolombia;
 
 
-public class Clicks implements Task {
-    public static Clicks onThePage() {
-        return Tasks.instrumented(Clicks.class);
+public class Navega implements Task {
+    public static Navega onThePage() {
+        return Tasks.instrumented(Navega.class);
     }
 
     @Override

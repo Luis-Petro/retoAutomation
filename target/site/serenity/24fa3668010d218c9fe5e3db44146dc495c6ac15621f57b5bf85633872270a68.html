@@ -339,7 +339,7 @@ para ver los resultados que me arroja
                                                                             <a style="margin-left:0.5em;padding-right: 1.5em;"
                                                                                href="ecf9e04cd27aee739e40a9fa2a355485e306dc3084e5effd42cbcc64b226cca2.html"
                                                                                title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                                                             </a>
 
                                                                         
@@ -401,7 +401,7 @@ para ver los resultados que me arroja
                                                 </div>
 
                                                 <div class="scenario-docs card" id="23e5b161c6f6becc34e34ecddfce821b3494d9d6931b722d3c1d4a90b15b5761">
-                                                    <div class="scenario-docs card-header failure" style="min-height:1.5em;">
+                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
                                                         <div>
                                                             <span class="scenario-heading">
                                                                 <a href="ecf9e04cd27aee739e40a9fa2a355485e306dc3084e5effd42cbcc64b226cca2.html" title="View test results">Verificar el resultado del simulador de crédito de vivienda con</a>
@@ -409,7 +409,7 @@ para ver los resultados que me arroja
                                                             <span class="scenario-result-icon">
                                                                 
 
-                                                                    <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                                             </span>
                                                         </div>
                                                     </div>
@@ -430,7 +430,7 @@ para ver los resultados que me arroja
 <tr><th>ValorVivivenda</th><th>plazo</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>130000000</td><td>3</td><td> </td></tr>
+<tr><td>180000000</td><td>10</td><td> </td></tr>
 <tr><td>160000000</td><td>15</td><td> </td></tr>
 </tbody>
 </table></div>
@@ -453,10 +453,10 @@ para ver los resultados que me arroja
                                             </div>
                                             <script>
 
-                                                var labels = ['25%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '25%', ' ', '50%', ' ', ' ', ' '];
+                                                var labels = ['50%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '50%', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 1}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 2}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 2}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -497,8 +497,8 @@ para ver los resultados que me arroja
                                                                         <a href="fbe57c4fef3629cb6cda488029332262e17d4e7c69bdeed09ab2cab61e974b84.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">25%</td>
+                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">50%</td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -529,12 +529,12 @@ para ver los resultados que me arroja
                                             </tr>
 
                                             <tr>
-                                                                    <td class="aggregate-result-count indented-error-category">
-                                                                        <a href="37f18f77bc11ccb044ee62155f6ea0d8036ef2c5c1682e0164f8d5c5ab038109.html"><i
-                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
-                                                                    </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">25%</td>
+                                                                <td class="aggregate-result-count indented-error-category">
+                                                                    <i
+                                                                            class='fa fa-times-circle failure-icon'></i>&nbsp;Failed
+                                                                </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <a href="fa7f9e494bd43aac9a924909be0911bec689e2c764e95135856a2c8d644f99e1.html"><i
@@ -574,11 +574,11 @@ para ver los resultados que me arroja
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td> 1m 49s</td>
-                                                        <td> 16h  29m 22s</td>
-                                                        <td>2ms</td>
+                                                        <td> 1m 53s</td>
+                                                        <td>4d  12h  47m 13s</td>
+                                                        <td>30s</td>
                                                         <td>48s</td>
-                                                        <td>54s</td>
+                                                        <td>56s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -614,17 +614,17 @@ para ver los resultados que me arroja
                                                                 style="display:none">ERROR</span>
                                                     </td>
                                                 </tr>
-                                                <tr class="scenario-result FAILURE">
+                                                <tr class="scenario-result SUCCESS">
                                                     <td>
                                                             <a href="ecf9e04cd27aee739e40a9fa2a355485e306dc3084e5effd42cbcc64b226cca2.html">Verificar el resultado del simulador de crédito de vivienda con</a>
                                                                (2 examples)
                                                     </td>
                                                     <td>6</td>
-                                                    <td>12:07:33</td>
-                                                    <td>1m 1s</td>
+                                                    <td>08:25:24</td>
+                                                    <td>1m 5s</td>
                                                     <td>
-                                                            <a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a> <span
-                                                                style="display:none">FAILURE</span>
+                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                style="display:none">SUCCESS</span>
                                                     </td>
                                                 </tr>
                                                 </tbody>

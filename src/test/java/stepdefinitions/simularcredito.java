@@ -1,5 +1,4 @@
 package stepdefinitions;
-import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import cucumber.api.java.es.*;
 import net.serenitybdd.screenplay.GivenWhenThen;
@@ -26,7 +25,7 @@ public class simularcredito {
 
     @Dado("^Seleciona productos y servicios para dirigirse a Leasing$")
     public void seleciona_productos_y_servicios_para_dirigirse_a_Leasing() {
-        OnStage.theActorInTheSpotlight().attemptsTo(Clicks.onThePage());
+        OnStage.theActorInTheSpotlight().attemptsTo(Navega.onThePage());
     }
 
     @Dado("^Selecciona Leasing habitacional$")
